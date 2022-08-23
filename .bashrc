@@ -14,6 +14,7 @@ mkcdir () {
 
 PS1='\033[01;32m\]\u[ \T ]\033[01;37m\]:\033[01;34m\]\w\033[00m\]$ '
 
+export PATH=$PATH:/usr/lib64/jvm/java-18-openjdk/bin/
 
 # BEGIN_KITTY_SHELL_INTEGRATION
 if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
